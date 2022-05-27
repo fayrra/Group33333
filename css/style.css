@@ -5,6 +5,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;    
 }
 
+
 html {
     scroll-behavior: smooth;
     background-color: #A3BFA8;
@@ -59,9 +60,23 @@ table.table_head{
     font-family: 'Nunito', sans-serif; 
 }
 
-#add_contact_row{
+#add_contact_form{
     display: none;
+    position: absolute;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+    border-style: solid; 
+    border-color: #BE6E46;
+    border-width: 3px;
+}
 
+#static_body{
+    opacity: 1;
 }
 
 .alphabet_display{
@@ -84,6 +99,9 @@ table.table_head{
     padding: 10px;
     background-color: #7286A0;
     border-radius: 10px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
 }
 
 .navbutton:hover{
