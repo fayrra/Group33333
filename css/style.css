@@ -59,7 +59,8 @@ table.table_head{
     font-family: 'Nunito', sans-serif; 
 }
 
-#diplay_box_header{
+#add_contact_row{
+    display: none;
 
 }
 

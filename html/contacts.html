@@ -22,10 +22,16 @@
     </head>
 
     <body>
+
+        //
+        <script id="show_form" src="/js/add_contact_script.js"></script>
+
+
+
         <div id= "navbar">
             <h1 style="display: inline;" id="logo">Monster Contacts</h1>
             <br>
-            <button class= "navbutton" onclick="add_contact()">Add Contact</button>
+            <button class= "navbutton" onclick="show_add_contact()">Add Contact</button>
             <button class= "navbutton" onclick="showAlert()">User settings</button>
             <br>
         </div>
@@ -44,7 +50,7 @@
                             <th>Name</th>
                             <th>Phone Number</th>
                             <th>E-mail</th>
-                          </tr>
+                        </tr>
                     </table>
                     <table>
                         <tr><script type="populate_contacts.js"></script></tr>
