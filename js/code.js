@@ -6,6 +6,11 @@ let userId = 0;
 let firstName = "";
 let lastName = "";
 
+function testo()
+{
+	alert("Alert, alert, this not a drill! Alert, alert, srs buisness is occuring");
+}
+
 function doLogin()
 {
 	userId = 0;
@@ -92,7 +97,7 @@ function readCookie()
 	
 	if( userId < 0 )
 	{
-		window.location.href = "index.html";
+		window.location.href = "/index.html";
 	}
 	else
 	{

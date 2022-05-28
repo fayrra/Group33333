@@ -8,6 +8,7 @@
 
 html {
     scroll-behavior: smooth;
+    /*background: url('/images/background.png') no-repeat center center fixed;*/
     background-color: #A3BFA8;
 }
 
@@ -23,6 +24,7 @@ table.table_head{
 
 
 #navbar{
+    
     width: 100%;
     position: fixed;
     margin-top: 0px;
@@ -33,7 +35,7 @@ table.table_head{
     padding-bottom: 30px;
     top: 0%;
     left: 0%;
-    background-color: #A3BFA8 ;
+    background-color: #A3BFA8;
     border-color: #59594A;
     border-width: 100px;
     
@@ -71,7 +73,8 @@ table.table_head{
     padding: 5%;
     text-align: center;
     border-style: solid; 
-    border-color: #BE6E46;
+    /*border-color: #BE6E46;*/
+    border-color: #10100e;
     border-width: 3px;
 }
 
